@@ -1,0 +1,16 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "A off duty countdown application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ countdown --platform=win32 --out=./dist --electron-version=16.0.7 --overwrite --icon=./logo.ico"
+  },
+  "author": "Eleven",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-reloader": "^1.2.1",
+    "electron-packager": "^15.4.0"
+  }
+}
